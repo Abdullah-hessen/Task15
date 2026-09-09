@@ -11,13 +11,12 @@
 
 // function reverseNumber() {
 //   let num = prompt("Enter an integer number: ");
-//   let count = num.length - 1;
-//   let reversedNumber = "";
+//   let reversedNumber = [];
 
-//   for (let i = 0; count <= i; count--) {
-//     reversedNumber += num[count];
+//   for (let i = 0; i < num.length; i++) {
+//     reversedNumber.unshift(num[i]);
 //   }
-//   console.log(reversedNumber);
+//   console.log(+reversedNumber.join(""));
 // }
 // reverseNumber();
 
@@ -31,4 +30,4 @@
 //    6-  A. undefined
 //    7-  A. undefined - 2
 //    8-  A. 30 - 20 - 10
-//    9-
+//    9-  D. 10 - error
